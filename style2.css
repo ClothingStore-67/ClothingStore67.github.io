@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Playwrite DE Grund', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container-box {
+    border: 2px solid #333; /* เส้นขอบเป็นสีเข้มขึ้น */
+    padding: 25px; /* เพิ่มระยะห่างภายใน */
+    margin: 30px auto; /* เพิ่มระยะห่างภายนอก */
+    max-width: 950px; /* เพิ่มขนาดกว้างสุด */
+    background-color: #fff; /* สีพื้นหลังเป็นสีขาว */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* เงาที่เข้มขึ้น */
+    border-radius: 15px; /* มุมโค้งมนมากขึ้น */
+}
+.flex {
+    display: flex;
+    justify-content: space-around; /* จัดช่องว่างให้เท่าๆ กัน */
+    align-items: center;
+    gap: 20px; /* เพิ่มระยะห่างระหว่างลูก */
+}
+.flex-fill {
+    flex: 1;
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px; /* เพิ่มช่องว่างระหว่างรูป */
+}
+
+.flex img {
+    width: 100%;
+    max-width: 450px; /* ปรับขนาดรูปสูงสุด */
+    height: auto;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flex img:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* เพิ่มเงาตอน hover */
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .flex img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+#About {
+    padding: 90px 0;
+    background-color: #e0e0e0; /* สีพื้นหลังใหม่ */
+}
+#About h2 {
+    text-align: center;
+    margin-bottom: 60px; /* เพิ่มระยะห่างด้านล่าง */
+    font-size: 2.5rem;
+    color: #444;
+}
+
+.navbar {
+    border-radius: 12px;
+    margin-top: 10px; /* เพิ่มระยะห่างด้านบน */
+    padding: 20px; /* เพิ่มระยะห่างภายใน */
+    background-color: #333; /* เพิ่มสีพื้นหลังให้ navbar */
+    color: #fff; /* เปลี่ยนสีข้อความใน navbar */
+}
+
+footer {
+    background-color: #555; /* สีพื้นหลังเข้มขึ้น */
+    padding: 15px;
+    text-align: center;
+    color: #000000; /* เปลี่ยนสีฟอนต์เป็นสีขาว */
+}

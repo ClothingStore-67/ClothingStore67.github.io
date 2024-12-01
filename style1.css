@@ -1,0 +1,18 @@
+.carousel-item{
+    height: 500px;
+}
+.carousel-image-1{
+    background: url("https://images.squarespace-cdn.com/content/v1/54e8730fe4b0f761f47eb297/1480765739170-3MGA4M48FS8QLFQQJLWB/Zarachlotescontainer.jpg?format=1500w");
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url("https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url("https://images.pexels.com/photos/7667442/pexels-photo-7667442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.img-fluid{
+    width: 500px;
+} 

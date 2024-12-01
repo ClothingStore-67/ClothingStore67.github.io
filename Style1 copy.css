@@ -1,0 +1,18 @@
+.carousel-item{
+    height: 500px;
+}
+.carousel-image-1{
+    background: url("https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url("https://images.pexels.com/photos/5915240/pexels-photo-5915240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url("https://images.pexels.com/photos/5673502/pexels-photo-5673502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.img-fluid{
+    width: 500px;
+} 
